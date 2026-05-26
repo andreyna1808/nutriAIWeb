@@ -15,7 +15,7 @@ export function ColorModeProvider(props: ColorModeProviderProps) {
   )
 }
 
-export type ColorMode = "light" | "dark"
+export type ColorMode = "light" | "dark" | "system"
 
 export interface UseColorModeReturn {
   colorMode: ColorMode
